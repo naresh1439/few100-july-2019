@@ -1,18 +1,18 @@
 import './styles.css';
-import { add, PI } from './utils';
-console.log('Ready to Party');
+import { ready } from './ready';
+import { runApp } from './app';
 
-console.log(add(10, 18));
+// const nameInput = document.getElementById('name') as HTMLInputElement;
+// const doitButton = document.getElementById('doit') as HTMLInputElement;
+// const messageOutput = document.getElementById('message');
 
-console.log(PI);
+// doitButton.addEventListener('click', function () {
+//     const entername = nameInput.value;
+//     messageOutput.innerText = entername.toUpperCase();
+// })
 
 
-const nameInput = document.getElementById('name') as HTMLInputElement;
-const doitButton = document.getElementById('doit') as HTMLInputElement;
-const messageOutput = document.getElementById('message');
+ready(runApp)
 
-doitButton.addEventListener('click', function () {
-    const entername = nameInput.value;
-    messageOutput.innerText = entername.toUpperCase();
-})
+
 

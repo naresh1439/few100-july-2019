@@ -185,7 +185,8 @@ describe('functions and objects', () => {
                             getInfo: function () {
                                 return `person ${this.first} ${this.last};`
                             }
-                        });
+                        }
+                    });
                 });
             });
         });
